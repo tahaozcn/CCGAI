@@ -1,0 +1,30 @@
+t-shirt
+jeans
+dress
+shoes
+watch
+bag
+sunglasses
+laptop
+smartphone
+headphones
+camera
+book
+jewelry
+hat
+backpack
+wallet
+belt
+scarf
+umbrella
+perfume
+makeup
+furniture
+home decor
+kitchenware
+electronics
+sports equipment
+toys
+musical instruments
+art supplies
+office supplies 
