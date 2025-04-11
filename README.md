@@ -76,4 +76,4 @@ The project consists of two main components:
 
 ## Contributing
 
-For information on how to contribute, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file. 
+For information on how to contribute, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
