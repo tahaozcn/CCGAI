@@ -1,86 +1,79 @@
-# E-Ticaret AI Projesi
+# E-Commerce AI Project
 
-Bu proje, yapay zeka kullanarak e-ticaret platformlarında görsel arama yapabilmeyi sağlayan bir uygulamadır.
+This project is a graduation project that enables visual search in e-commerce platforms using artificial intelligence.
 
-## Projeyi Çalıştırma
+## Project Summary
 
-### Backend
+The E-Commerce AI Project is an innovative solution that allows users to search for similar products using images they upload. Developed using image processing and artificial intelligence technologies, this system provides search results based on visual similarity analysis.
 
-```bash
-# Backend klasörüne geçin
-cd ecommerce-ai/backend
+## Setup Steps
 
-# Python sanal ortamı oluşturun (ilk kez çalıştırırken)
-python -m venv venv
-
-# Sanal ortamı aktifleştirin:
-# Windows için:
-venv\Scripts\activate
-# Linux/MacOS için:
-# source venv/bin/activate
-
-# Gerekli paketleri yükleyin
-pip install -r requirements.txt
-
-# Sunucuyu başlatın
-python app.py
-```
-
-### Frontend
-
-```bash
-# Frontend klasörüne geçin
-cd ecommerce-ai/frontend
-
-# Bağımlılıkları yükleyin
-npm install
-
-# Geliştirme sunucusunu başlatın
-npm start
-```
-
-## Notlar
-
-- Backend sunucusu varsayılan olarak `http://localhost:5000` adresinde çalışır
-- Frontend uygulaması varsayılan olarak `http://localhost:3000` adresinde çalışır
-- Görsel arama için örnek resimler `test_images` klasöründe bulunmaktadır
-
-## Özellikler
-
-- Görsel arama teknolojisi
-- Ürün öneri sistemi
-- Akıllı kategorizasyon
-
-## Kurulum
-
-### Gereksinimler
+### Requirements
 
 - Python 3.7+
 - Node.js 14+
+- npm or yarn
 
-### Backend Kurulumu
+### Backend Setup
 
 ```bash
+# Navigate to the backend directory
 cd ecommerce-ai/backend
+
+# Create a Python virtual environment
 python -m venv venv
-# Windows için:
+
+# Activate the virtual environment
+# For Windows:
 venv\Scripts\activate
-# Linux/MacOS için:
+# For Linux/MacOS:
 # source venv/bin/activate
+
+# Install required packages
 pip install -r requirements.txt
 ```
 
-### Frontend Kurulumu
+### Frontend Setup
 
 ```bash
+# Navigate to the frontend directory
 cd ecommerce-ai/frontend
+
+# Install dependencies
 npm install
 ```
 
-## Katkı Sağlama
+## Running the Project
 
-Katkıda bulunmak istiyorsanız, lütfen [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını inceleyin.
+### Backend Server
 
-## Lisans
+```bash
+cd ecommerce-ai/backend
+# Virtual environment should be active
+python app.py
+```
 
-MIT 
+### Frontend Application
+
+```bash
+cd ecommerce-ai/frontend
+npm start
+```
+
+## System Architecture
+
+The project consists of two main components:
+
+1. **Backend (Flask)**: Image processing, AI model integration, and API services
+2. **Frontend (React)**: User interface and interactive experience
+
+## Features
+
+- Find similar products with visual search technology
+- Category-based filtering system
+- AI-powered product recommendations
+- User-friendly interface
+
+## Contributing
+
+For information on how to contribute, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file. 
