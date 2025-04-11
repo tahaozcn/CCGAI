@@ -1,6 +1,49 @@
-# E-Commerce AI Project
+# E-Ticaret AI Projesi
 
-Bu proje, yapay zeka teknolojilerini kullanarak e-ticaret deneyimini geliştiren bir web uygulamasıdır.
+Bu proje, yapay zeka kullanarak e-ticaret platformlarında görsel arama yapabilmeyi sağlayan bir uygulamadır.
+
+## Projeyi Çalıştırma
+
+### Backend
+
+```bash
+# Backend klasörüne geçin
+cd ecommerce-ai/backend
+
+# Python sanal ortamı oluşturun (ilk kez çalıştırırken)
+python -m venv venv
+
+# Sanal ortamı aktifleştirin:
+# Windows için:
+venv\Scripts\activate
+# Linux/MacOS için:
+# source venv/bin/activate
+
+# Gerekli paketleri yükleyin
+pip install -r requirements.txt
+
+# Sunucuyu başlatın
+python app.py
+```
+
+### Frontend
+
+```bash
+# Frontend klasörüne geçin
+cd ecommerce-ai/frontend
+
+# Bağımlılıkları yükleyin
+npm install
+
+# Geliştirme sunucusunu başlatın
+npm start
+```
+
+## Notlar
+
+- Backend sunucusu varsayılan olarak `http://localhost:5000` adresinde çalışır
+- Frontend uygulaması varsayılan olarak `http://localhost:3000` adresinde çalışır
+- Görsel arama için örnek resimler `test_images` klasöründe bulunmaktadır
 
 ## Özellikler
 
@@ -32,23 +75,6 @@ pip install -r requirements.txt
 ```bash
 cd ecommerce-ai/frontend
 npm install
-```
-
-## Projeyi Çalıştırma
-
-### Backend Sunucusu
-
-```bash
-cd ecommerce-ai/backend
-# venv aktifleştirdikten sonra:
-python app.py
-```
-
-### Frontend Uygulaması
-
-```bash
-cd ecommerce-ai/frontend
-npm start
 ```
 
 ## Katkı Sağlama
