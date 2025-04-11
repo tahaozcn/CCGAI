@@ -76,11 +76,3 @@ pip install -r requirements.txt
 cd ecommerce-ai/frontend
 npm install
 ```
-
-## Katkı Sağlama
-
-Katkıda bulunmak istiyorsanız, lütfen [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını inceleyin.
-
-## Lisans
-
-MIT 
