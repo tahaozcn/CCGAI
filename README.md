@@ -1,12 +1,12 @@
 # E-Commerce AI Project
 
-This project is a graduation project that enables visual search in e-commerce platforms using artificial intelligence.
+My graduation project focused on visual search technology for e-commerce platforms using artificial intelligence.
 
-## Project Summary
+## About This Project
 
-The E-Commerce AI Project is an innovative solution that allows users to search for similar products using images they upload. Developed using image processing and artificial intelligence technologies, this system provides search results based on visual similarity analysis.
+I developed this project as part of my graduation requirements. It enables users to search for products by uploading images, utilizing advanced image processing and AI technologies to find visually similar items in an e-commerce database.
 
-## Setup Steps
+## Setup
 
 ### Requirements
 
@@ -43,13 +43,13 @@ cd ecommerce-ai/frontend
 npm install
 ```
 
-## Running the Project
+## Running the Application
 
 ### Backend Server
 
 ```bash
 cd ecommerce-ai/backend
-# Virtual environment should be active
+# Make sure virtual environment is active
 python app.py
 ```
 
@@ -60,20 +60,20 @@ cd ecommerce-ai/frontend
 npm start
 ```
 
-## System Architecture
+## Technical Architecture
 
-The project consists of two main components:
+My application consists of two main components:
 
-1. **Backend (Flask)**: Image processing, AI model integration, and API services
-2. **Frontend (React)**: User interface and interactive experience
+1. **Backend (Flask)**: Handles image processing, AI model integration, and API services
+2. **Frontend (React)**: Provides a responsive and intuitive user interface
 
-## Features
+## Key Features
 
-- Find similar products with visual search technology
-- Category-based filtering system
-- AI-powered product recommendations
-- User-friendly interface
+- Visual search capability to find products based on image similarity
+- Category-based filtering for improved search results
+- AI-powered product recommendation system
+- Responsive design for various device types
 
-## Contributing
+## Project Status
 
-For information on how to contribute, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+This project is part of my academic work and is currently in development.

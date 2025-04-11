@@ -1,63 +1,63 @@
-# Development and Contribution Guide
+# Project Notes
 
-This document serves as a basic guide for those who wish to contribute to the E-Commerce AI Project.
+This file contains personal notes about the development of my E-Commerce AI Project.
 
-## Setting Up the Development Environment
+## Development Environment Setup
 
-Follow these steps to contribute to the project:
+These are steps I followed to set up my development environment:
 
-1. Clone the project from GitHub: 
+1. Set up the GitHub repository: 
    ```bash
    git clone https://github.com/tahaozcn/CCGAI.git
    cd CCGAI
    ```
 
-2. Set up the required development environments:
-   - For the backend, follow the Backend Setup instructions in the [README.md](README.md) file
-   - For the frontend, follow the Frontend Setup instructions in the [README.md](README.md) file
+2. Configure development environments:
+   - Backend setup (Flask, TensorFlow, etc.)
+   - Frontend setup (React, npm packages)
 
-## Development Workflow
+## Personal Workflow
 
-1. Before starting work on a new feature or bug fix, update your local repository:
+My typical workflow when developing new features:
+
+1. Update local repository with latest changes:
    ```bash
    git pull origin main
    ```
 
-2. Make your changes and test them
-   - For the backend, ensure that the APIs are working correctly
-   - For the frontend, ensure that the user interface works as expected
+2. Implement and test changes
+   - Test backend APIs
+   - Verify frontend functionality
 
-3. Commit your changes:
+3. Commit changes:
    ```bash
    git add .
-   git commit -m "Feature/fix description"
+   git commit -m "Implement feature X"
    ```
 
-4. Push your changes to the main repository:
+4. Push changes to repository:
    ```bash
    git push origin main
    ```
 
-## Code Standards
+## Coding Conventions
 
-### Backend (Python)
-- Write code according to PEP 8 style guide
-- Properly document functions and classes
-- Write unit tests
+Standards I try to follow in my code:
 
-### Frontend (React/JavaScript)
-- Write code according to ESLint rules
-- Develop modularly following component architecture
-- Adhere to responsive design principles
+### Python Code
+- Follow PEP 8 guidelines
+- Document functions and classes
+- Write unit tests when possible
 
-## Version Control
+### JavaScript/React Code
+- Follow ESLint conventions
+- Create reusable components
+- Design with mobile responsiveness in mind
 
-- The project uses Semantic Versioning (SemVer) for version management
-- Version numbers are updated for each significant change:
-  - Major: Backward incompatible API changes
-  - Minor: Backward compatible new features
-  - Patch: Backward compatible bug fixes
+## Future Improvements
 
-## Communication
-
-For questions about the project, please contact the team members. 
+Ideas for future development:
+- Implement user authentication
+- Add product comparison feature
+- Enhance recommendation algorithm
+- Optimize for mobile devices 
