@@ -1,6 +1,6 @@
 # E-Commerce AI Project
 
-This project is a graduation project that enables visual search in e-commerce platforms using artificial intelligence.
+This project is enables visual search in e-commerce platforms using artificial intelligence.
 
 ## Project Summary
 
